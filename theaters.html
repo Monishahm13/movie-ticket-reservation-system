@@ -13,72 +13,45 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Theater List - Movie Ticket System</title>
+  <title>Theaters</title>
   <style>
     body {
       font-family: Arial, sans-serif;
       padding: 20px;
     }
-    h1 {
-      text-align: center;
-    }
     .theater {
       border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 15px;
       border-radius: 8px;
-      margin-bottom: 20px;
-      padding: 15px;
-    }
-    .theater h2 {
-      margin-top: 0;
-    }
-    .movie {
-      margin-left: 15px;
-      margin-bottom: 10px;
     }
     .showtime {
-      margin-left: 30px;
-      color: #555;
-    }
-    nav a {
-      margin-right: 15px;
-      text-decoration: none;
-      color: #6c7ae0;
+      margin-left: 15px;
     }
   </style>
 </head>
 <body>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="movies.html">Movies</a>
-  <a href="theaters.html">Theaters</a>
+  <a href="index.html">Home</a> |
+  <a href="movies.html">Movies</a> |
+  <a href="theaters.html">Theaters</a> |
   <a href="login.html">Login</a>
 </nav>
+<hr />
 
-<h1>Theaters & Showtimes</h1>
+<h2>Now Showing in Theaters</h2>
 
 <div class="theater">
-  <h2>Grand Cinema</h2>
-  <div class="movie">
-    <strong>Avengers: Endgame</strong>
-    <div class="showtime">10:00 AM, 1:00 PM, 6:00 PM</div>
-  </div>
-  <div class="movie">
-    <strong>Spider-Man: No Way Home</strong>
-    <div class="showtime">11:30 AM, 3:30 PM, 8:00 PM</div>
-  </div>
+  <h3>Grand Cinema</h3>
+  <p><strong>Avengers: Endgame</strong></p>
+  <p class="showtime">10:00 AM, 1:00 PM, 6:00 PM</p>
 </div>
 
 <div class="theater">
-  <h2>Starplex</h2>
-  <div class="movie">
-    <strong>Inception</strong>
-    <div class="showtime">9:00 AM, 12:00 PM, 5:00 PM</div>
-  </div>
-  <div class="movie">
-    <strong>The Dark Knight</strong>
-    <div class="showtime">10:30 AM, 2:30 PM, 7:00 PM</div>
-  </div>
+  <h3>Starplex</h3>
+  <p><strong>Inception</strong></p>
+  <p class="showtime">9:30 AM, 12:30 PM, 5:30 PM</p>
 </div>
 
 </body>
