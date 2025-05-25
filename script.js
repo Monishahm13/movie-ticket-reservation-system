@@ -1,3 +1,12 @@
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="movies.html">Movies</a> |
+  <a href="theaters.html">Theaters</a> |
+  <a href="login.html">Login</a>
+</nav>
+<hr />
+
+
 const seatsContainer = document.getElementById('seats-container');
 const reserveBtn = document.getElementById('reserve-btn');
 
