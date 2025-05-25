@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+#seats-container {
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.seat {
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  border: 1px solid #999;
+  cursor: pointer;
+}
+.seat.selected {
+  background-color: #6c7ae0;
+  color: white;
+  font-weight: bold;
+}
